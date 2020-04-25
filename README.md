@@ -10,5 +10,5 @@ Tech I used to create the app
 * [Koin](https://insert-koin.io)
 * [Data binding](https://developer.android.com/topic/libraries/data-binding)
 
-##API Source
+## API Source
 I'm using API from [Github](https://developer.github.com/v3/search/#search-users) to get the user data. It's free though, feel free to use it in your own project
