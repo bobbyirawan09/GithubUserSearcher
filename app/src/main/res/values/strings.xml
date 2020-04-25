@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GithubSearcher</string>
+    <string name="search_menu_hint">Search Github users</string>
+    <string name="result_not_found">Hasil tidak dapat ditemukan</string>
+    <string name="hint_search">Hint: Gunakan spasi untuk memisahkan keyword. Klik ikon search di keyboard untuk memulai pencarian</string>
+</resources>
