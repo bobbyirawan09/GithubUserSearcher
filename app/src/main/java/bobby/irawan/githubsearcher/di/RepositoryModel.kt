@@ -1,7 +1,7 @@
 package bobby.irawan.githubsearcher.di
 
-import bobby.irawan.githubsearcher.repository.GithubSearchRepositoryContract
 import bobby.irawan.githubsearcher.repository.GithubSearchRepository
+import bobby.irawan.githubsearcher.repository.GithubSearchRepositoryContract
 import org.koin.dsl.module
 
 /**

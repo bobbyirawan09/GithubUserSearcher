@@ -5,7 +5,6 @@ import android.widget.ImageView
 import android.widget.ProgressBar
 import androidx.databinding.BindingAdapter
 import coil.api.load
-import coil.transform.BlurTransformation
 
 /**
  * Created by bobbyirawan09 on 22/04/20.

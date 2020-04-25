@@ -11,7 +11,10 @@ import io.reactivex.Single
 class GithubSearchRepository constructor(private val api: GithubSearchService) :
     GithubSearchRepositoryContract {
 
-    override fun callApi(query: String, currentPage: Int): Single<MutableList<GithubSearchItemModelView>> {
+    override fun callApi(
+        query: String,
+        currentPage: Int
+    ): Single<MutableList<GithubSearchItemModelView>> {
         return api.callApi(query, currentPage).map {
             val newList = mutableListOf<GithubSearchItemModelView>()
             it.items?.forEach { item ->

@@ -79,7 +79,8 @@ class MainActivityViewModel(private val repository: GithubSearchRepositoryContra
                         _loadingAdapterItemLiveData.value = View.GONE
                         _loadingListLiveData.value = View.GONE
                         when {
-                            it is UnknownHostException -> errorMessage = "Anda tidak terhubung dengan jaringan"
+                            it is UnknownHostException -> errorMessage =
+                                "Anda tidak terhubung dengan jaringan"
                             else -> errorMessage = it.message.toString()
                         }
                         if (!fetchNextResult) {
