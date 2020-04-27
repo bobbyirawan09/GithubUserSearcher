@@ -1,6 +1,9 @@
 # GithubUserSearcher
 A simple app to search for github users
 
+## Demo
+[GithubUserSearcher Demo](demo/demo.gif)
+
 ## Tech Stack
 Tech I used to create the app 
 * [Kotlin](https://kotlinlang.org)
