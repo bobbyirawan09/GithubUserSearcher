@@ -2,7 +2,7 @@
 A simple app to search for github users
 
 ## Demo
-[GithubUserSearcher Demo](demo/demo.gif)
+[](demo/demo.gif)
 
 ## Tech Stack
 Tech I used to create the app 
